@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
 %define	pnam	Simple-Headers
-Summary:	Email::Simple::Headers - Get a List of Headers From Simple Objects
+Summary:	Email::Simple::Headers - get a list of headers from simple objects
 Summary(pl):	Email::Simple::Headers - pobieranie listy nag³ówków z obiektów Email::Simple
 Name:		perl-Email-Simple-Headers
 Version:	1.01
