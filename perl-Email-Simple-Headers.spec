@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	Simple-Headers
 Summary:	Email::Simple::Headers - Get a List of Headers From Simple Objects
-#Summary(pl):	
+Summary(pl):	Email::Simple::Headers - pobieranie listy nag³ówków z obiektów Email::Simple
 Name:		perl-Email-Simple-Headers
 Version:	1.01
 Release:	1
@@ -28,8 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This software provides an instance method for Email::Simple to get
 a list of headers.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten pakiet dostarcza metodê do pobierania listy nag³ówków z obiektu
+Email::Simple.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
