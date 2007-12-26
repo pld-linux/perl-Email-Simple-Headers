@@ -8,13 +8,14 @@
 Summary:	Email::Simple::Headers - get a list of headers from simple objects
 Summary(pl.UTF-8):	Email::Simple::Headers - pobieranie listy nagłówków z obiektów Email::Simple
 Name:		perl-Email-Simple-Headers
-Version:	1.01
+Version:	1.02
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8f8cd42131ffeea19d0d14035487e89b
+Source0:	http://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	4c4ebde66d8a7331c9ca1d85bfe9dbfe
+URL:		http://search.cpan.org/dist/Email-Simple-Headers/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
